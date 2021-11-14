@@ -1,1 +1,5 @@
 <p>Nombre: {{ nombre }} Apellido: {{ apellido }} Edad: {{ edad }}</p>
+<div (keyup)="0">
+  <label for="entrada">Repetidor: </label>
+  <input type="text" #entrada />{{entrada.value}}
+</div>
