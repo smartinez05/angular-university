@@ -16,7 +16,7 @@ export class PersonasComponent {
       this.mensaje = 'Persona agregada';
     }
   }
-  modificarTitulo(event: Event) {
+  /* modificarTitulo(event: Event) {
     this.titulo = (<HTMLInputElement>event.target).value;
-  }
+  } */
 }
