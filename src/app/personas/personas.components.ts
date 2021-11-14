@@ -6,5 +6,14 @@ import { Component } from "@angular/core";
     styleUrls: ['./personas.component.css']
 })
 export class PersonasComponent {
-    deshabilitar = true;
+    deshabilitar = false;
+    mensaje = 'No se ha agregado ninguna persona';
+    agregarPersona(){
+        if (this.mensaje == 'Persona agregada') {
+            this.mensaje = 'No se ha agregado ninguna persona'
+        } else {
+            this.mensaje = 'Persona agregada'
+        }
+        
+    }
 }
